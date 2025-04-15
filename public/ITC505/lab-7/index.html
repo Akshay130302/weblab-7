@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad Lib Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Play Mad Lib!</h1>
+        <form action="/ITC505/lab-7" method="POST">
+            <label>Noun: <input type="text" name="noun" required></label>
+            <label>Verb: <input type="text" name="verb" required></label>
+            <label>Adjective: <input type="text" name="adjective" required></label>
+            <label>Place: <input type="text" name="place" required></label>
+            <label>Animal: <input type="text" name="animal" required></label>
+            <button type="submit">Create Mad Lib</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
